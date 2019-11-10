@@ -1,0 +1,23 @@
+body{
+    background-color: lightslategray;
+}
+.register-div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+input{
+    height: 30px;
+    width: 30%;
+    font-size: 18px;
+}
+.submit-button{
+    height:50px;
+    width:15%;
+}
