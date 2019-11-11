@@ -28,6 +28,13 @@ class NavBar extends React.Component {
                 <header className="sub-header-div">
                     <Link  className="header-link" to={'/signup'}>Signup</Link>
                     <Link className="header-link" to={'/login'}>Login</Link>
+                    <button className="header-link"
+                        onClick={() => this.props.login({
+                            email: 'demo@example.com', password: 'password'
+                        })}
+                    >
+                        Demo
+        </button>
                 </header>
             );
         }
